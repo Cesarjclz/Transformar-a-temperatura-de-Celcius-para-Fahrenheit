@@ -1,12 +1,37 @@
-﻿using System;
+﻿
+            using System;
 
-namespace atividade_1
-{
-    class Program
+namespace Exercicio1
     {
-        static void Main(string[] args)
+        class Program
         {
-            Console.WriteLine("Hello World!");
+            static void Main(string[] args)
+            {
+
+
+                double celcius;
+                double fahrenheit;
+
+                Console.WriteLine("Saber a temperatura em graus celcius para Fahrenheit!");
+
+                Console.WriteLine("Digite a temperatura em graus celcius:");
+                celcius = double.Parse(Console.ReadLine());
+                fahrenheit = (celcius * 9 / 5) + 32;
+                Console.WriteLine("A temperatura em Fahrenheit é: {0} ", fahrenheit);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            }
         }
     }
-}
